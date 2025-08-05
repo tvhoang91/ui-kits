@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "default",
+  "title": "Default Registry",
+  "description": "Shadcn/ui example components",
+  "homepage": "https://ui.shadcn.com",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Displays a button element.",
+      "files": [
+        {
+          "path": "registry/default/button/button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Displays a card with header, content, and footer.",
+      "files": [
+        {
+          "path": "registry/default/card/card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}

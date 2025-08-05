@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "seed",
+  "title": "Seed Registry",
+  "description": "Seed brand component library",
+  "homepage": "",
+  "items": [
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Seed Card",
+      "description": "Seed branded card component.",
+      "files": [
+        {
+          "path": "registry/default/card/card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}

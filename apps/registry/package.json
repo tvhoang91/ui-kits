@@ -1,0 +1,16 @@
+{
+  "name": "@ui-kits/registry",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:default": "shadcn build --config registry-default.json --output public/r/default",
+    "build:yay": "shadcn build --config registry-yay.json --output public/r/yay",
+    "build:seed": "shadcn build --config registry-seed.json --output public/r/seed",
+    "build:all": "pnpm build:default && pnpm build:yay && pnpm build:seed",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "shadcn": "latest",
+    "typescript": "^5.0.0"
+  }
+}

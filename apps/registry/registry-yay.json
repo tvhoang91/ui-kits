@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "yay",
+  "title": "Yay Registry",
+  "description": "Yay brand component library",
+  "homepage": "",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Yay Button",
+      "description": "Yay branded button component.",
+      "files": [
+        {
+          "path": "registry/default/button/button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
